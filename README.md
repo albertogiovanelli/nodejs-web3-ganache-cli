@@ -13,9 +13,8 @@ Local
 ## Requirements
 
 1. Download and install Node.js
-2. Install Yarn globally: `npm install -g yarn`
-3. Install Truffle v4.0.1 `yarn add global truffle`
-4. Install Ganache v6.1.0 `yarn add global ganache-cli`
+2. Install Truffle v4.0.1 `npm add global truffle`
+3. Install Ganache v6.1.0 `npm add global ganache-cli`
 
 ## How to run the project
 
@@ -24,7 +23,8 @@ Once ganache is started you can use web3.js to retrieve information from the Blo
 1. Clone this project
 2. Start Ganache: `ganache-cli`
 2. CD to the project directory: `cd nodejs-web3-ganache-cli`
-3. Install project dependencies: `yarn install`
+3. Install project dependencies: `npm install`
+4. Run index.js `node index.js`
 
 ## License
 
